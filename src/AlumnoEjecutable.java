@@ -30,7 +30,8 @@ public class AlumnoEjecutable{
         Alumno otroAlumno = new Alumno(lu2, nombre2, apellido2);
 
         //prueba de metodo apeYNom()
-        System.out.println("\napellido y nombre: ");
+        System.out.println("\nApellido y Nombre: ");
         System.out.println(otroAlumno.apeYNom());
+        System.out.println("\nhola soy la ramita");
     }
 }
