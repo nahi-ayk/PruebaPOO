@@ -32,6 +32,5 @@ public class AlumnoEjecutable{
         //prueba de metodo apeYNom()
         System.out.println("\nApellido y Nombre: ");
         System.out.println(otroAlumno.apeYNom());
-        System.out.println("\nhola soy la ramita");
     }
 }
