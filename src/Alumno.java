@@ -128,9 +128,11 @@ public class Alumno{
      * metodo mostrar que imprime en pantalla datos del alumno
      * su promedio y situacion
      */
-    public void mostrar(){
-        System.out.println("Nombre Y Apellido: " + this.nomYApe());
-        System.out.println("LU: " + this.getLU() + " " + "Notas: " + this.getNota1() + " - " + this.getNota2());
-        System.out.println("Promedio: " + this.promedio() + " - " + this.leyendaAprueba());
+    public String mostrar(){
+        return "Nombre Y Apellido: " + this.nomYApe() +
+                "\nLU: " + this.getLU() +
+                "\nNotas: " + this.getNota1() + " - " + this.getNota2() +
+                "\nPromedio: " + this.promedio() +
+                "\n" + this.leyendaAprueba();
     }
 }
